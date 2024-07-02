@@ -14,13 +14,13 @@ This project is a simple PIN entering interface with a visually appealing gradie
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/pin-entering-interface.git
+   git clone https://github.com/arnavravinder/PinInterface.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd pin-entering-interface
+   cd PinInterface
    ```
 
 3. Open the `index.html` file in your preferred web browser.
