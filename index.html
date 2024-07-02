@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIN Entering App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" data-tilt>
+        <h1>Enter Your PIN</h1>
+        <div class="pin-input">
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+            <input type="password" maxlength="1" />
+        </div>
+        <button class="submit-btn" onclick="showPopup()">Submit</button>
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <p>Logged in successfully!</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
